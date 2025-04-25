@@ -20,14 +20,15 @@ st.title("Reconocimiento óptico de Caracteres")
 img_file_buffer = st.camera_input("Toma una Foto que contenga texto en ella, este sitio web lo pasará a texto por tí.")
 
 with st.sidebar:
-        st.markdown("""
-            <style>
-            /* Cambia el fondo del sidebar */
-            [data-testid="stSidebar"] {
-                background-color: #d1e0e0;  /* color suave, puedes cambiarlo */
-            }
-            </style>
-            """, unsafe_allow_html=True)
+    st.markdown("""
+    <style>
+    /* Cambia el fondo del sidebar */
+    [data-testid="stSidebar"] {
+        background-color: #d1e0e0;  /* color suave, puedes cambiarlo */
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
     filtro = st.radio("¿Quieres aplicar filtro?",('Sí quiero', 'No quiero'))
 
 
