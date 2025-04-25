@@ -22,9 +22,8 @@ img_file_buffer = st.camera_input("Toma una Foto que contenga texto en ella, est
 with st.sidebar:
     st.markdown("""
     <style>
-    /* Cambia el fondo del sidebar */
     [data-testid="stSidebar"] {
-        background-color: #d1e0e0;  /* color suave, puedes cambiarlo */
+        background-color: #9ABDDC;  
     }
     </style>
     """, unsafe_allow_html=True)
