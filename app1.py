@@ -30,7 +30,7 @@ with st.sidebar:
     """,
     unsafe_allow_html=True
 )
-      filtro = st.radio("¿Quieres aplicar filtro?",('Sí quiero', 'No quiero'))
+    filtro = st.radio("¿Quieres aplicar filtro?",('Sí quiero', 'No quiero'))
 
 
 if img_file_buffer is not None:
